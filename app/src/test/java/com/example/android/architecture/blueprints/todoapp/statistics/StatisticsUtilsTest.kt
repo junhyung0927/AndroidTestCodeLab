@@ -29,6 +29,7 @@ class StatisticsUtilsTest {
         //when
         val result = getActiveAndCompletedStats(tasks)
 
+        //then
         assertThat(result.completedTasksPercent, `is`(0f))
         assertThat(result.activeTasksPercent, `is`(0f))
     }

@@ -25,6 +25,12 @@ android {
         enabled = true
         enabledForTests = true
     }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
 }
 
 dependencies {
