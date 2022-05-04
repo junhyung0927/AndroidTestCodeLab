@@ -12,7 +12,6 @@ import org.junit.Test
 
 @ExperimentalCoroutinesApi
 class DefaultTasksRepositoryTest {
-
     private val task1 = Task("Title1", "Description 1")
     private val task2 = Task("Title2", "Description 2")
     private val task3 = Task("Title3", "Description 3")
