@@ -20,8 +20,6 @@ class FakeTestRepository: TasksRepository {
     }
 
     override suspend fun getTask(taskId: String, forceUpdate: Boolean): Result<Task> {
-
-
         return Result.Error(Exception("Could Not Find Task"))
     }
 
